@@ -20,5 +20,5 @@ description: ismn_daily.py가 만든 ISMN 관측소 일자료 CSV(date_time, lat
 ## 출력 형식
 1. 요약: 전체 파일 수 / 오류·빈 파일 수 / 플래그별 관측소 수 / 같은 좌표를 공유하는 파일 수
 2. 사용한 설정: 경로, 기간, 임계값
-3. 플래그 관측소 표: file | lat | lon | first–last | 결측률(%) | sm 범위 | flags
+3. 플래그 관측소 표: file | lat | lon | first–last | 결측률(%) | sm 범위 | flags (결측률 내림차순으로 정렬)
 4. 확인 필요 항목: 사람이 판단해야 할 것만 (예: 같은 좌표 파일이 깊이가 다른 센서인지)
